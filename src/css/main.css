@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
+}
+
+.header {
+    text-align: center;
+}
+
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.in {
+    width: 70%;
+    border: 0;
+    font-size: 15pt;
+    border-bottom: 1px solid #efefef;
+}
+.ok {
+    width: 20%;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15pt;
+}
+
+.out {
+    max-width: 800px;
+    margin: 15px auto;
+    font-size: 15pt;
+    opacity: 0;
+}
+
+.result, .nowRate {
+    background-color: #fff;
+    border: 0;
+    font-size: 15pt;
+}
+
+.error {
+    color: #f00;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: underline;
+    opacity: 0;
+    display: none;
+}
+
+#me {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 12pt;
+    color: #ccc;
+    cursor: default;
+}
+#me:hover {
+    color: #444;
+}
